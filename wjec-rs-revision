@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eduqas RS Revision</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #0055a5;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #003f7d;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #002f5c;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #e0e0e0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Eduqas RS Revision</h1>
+    <p>Your hub for Religious Studies success</p>
+  </header>
+  <nav>
+    <a href="#topics">Topics</a>
+    <a href="#videos">Video Lessons</a>
+    <a href="#exams">Exam Practice</a>
+    <a href="#papers">Past Papers</a>
+  </nav>
+
+  <div class="section" id="topics">
+    <h2>Revision Topics</h2>
+    <div class="card">
+      <h3>Good & Evil</h3>
+      <p>Key terms, sources of wisdom, and ethical dilemmas.</p>
+    </div>
+    <div class="card">
+      <h3>Human Rights</h3>
+      <p>Freedom of religion, social justice, and discrimination.</p>
+    </div>
+    <div class="card">
+      <h3>Life After Death</h3>
+      <p>Religious beliefs and non-religious views on the afterlife.</p>
+    </div>
+    <div class="card">
+      <h3>Relationships</h3>
+      <p>Marriage, gender roles, and contemporary moral issues.</p>
+    </div>
+  </div>
+
+  <div class="section" id="videos">
+    <h2>Video Lessons</h2>
+    <div class="card">
+      <p>Coming soon: video lessons covering each key topic.</p>
+    </div>
+  </div>
+
+  <div class="section" id="exams">
+    <h2>Exam Practice</h2>
+    <div class="card">
+      <p>Interactive quizzes and practice questions coming soon.</p>
+    </div>
+  </div>
+
+  <div class="section" id="papers">
+    <h2>Past Papers</h2>
+    <div class="card">
+      <p>Download past exam papers from the Eduqas website.</p>
+      <a href="https://www.eduqas.co.uk/qualifications/religious-studies-gcse/#tab_pastpapers" target="_blank">Go to Eduqas RS Past Papers</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Eduqas RS Revision. Not affiliated with Eduqas.</p>
+  </footer>
+</body>
+</html>
